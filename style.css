@@ -1,0 +1,24 @@
+body, html {
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  
+  position: relative;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+#container div{
+  width: 22.5%;
+  height: 22.5%;
+  position: absolute;
+  font-size: .8em;
+  display: grid;
+  place-items: center;
+  box-shadow: 5px 5px 5px dimgray;
+  transition: top 2s;
+}
+
